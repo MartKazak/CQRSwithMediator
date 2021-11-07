@@ -14,7 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\DemoApp.DataAccess.EF\DemoApp.DataAccess.EF.csproj" />
     <ProjectReference Include="..\DemoApp.DataAccess.InMemory\DemoApp.DataAccess.InMemory.csproj" />
-    <ProjectReference Include="..\DemoApp.DataAccess\DemoApp.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

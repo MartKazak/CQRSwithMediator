@@ -1,7 +1,7 @@
-﻿using DemoApp.DataAccess.Abstractions;
+﻿using DemoApp.Types.Abstractions;
 using MediatR;
 
-namespace DemoApp.DataAccess.Users.Commands
+namespace DemoApp.Types.Users.Commands
 {
     //public sealed record UpdateUserCommand(int UserId, string FirstName, string LastName) : ICommand<Unit>;
 

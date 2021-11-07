@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoApp.DataAccess\DemoApp.DataAccess.csproj" />
+    <ProjectReference Include="..\DemoApp.Types\DemoApp.Types.csproj" />
   </ItemGroup>
 
 </Project>

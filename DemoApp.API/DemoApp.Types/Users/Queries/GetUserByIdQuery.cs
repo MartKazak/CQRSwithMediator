@@ -1,7 +1,7 @@
-﻿using DemoApp.DataAccess.Abstractions;
-using DemoApp.DataAccess.Contracts.Users;
+﻿using DemoApp.Types.Abstractions;
+using DemoApp.Types.Contracts.Users;
 
-namespace DemoApp.DataAccess.Users.Queries
+namespace DemoApp.Types.Users.Queries
 {
     //public sealed record GetUserByIdQuery(int UserId) : IQuery<UserDTO>;
 
@@ -13,6 +13,5 @@ namespace DemoApp.DataAccess.Users.Queries
         }
 
         public int Id { get; }
-        public string Type = "InMemory";
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using DemoApp.DataAccess.Abstractions;
-using DemoApp.DataAccess.Contracts.Users;
 using DemoApp.DataAccess.EF.Users.Extensions;
-using DemoApp.DataAccess.Users.Queries;
 using DemoApp.Domain.Repositories;
+using DemoApp.Types.Abstractions;
+using DemoApp.Types.Contracts.Users;
+using DemoApp.Types.Users.Queries;
 
 namespace DemoApp.DataAccess.EF.Users.Handlers.Queries
 {

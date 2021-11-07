@@ -5,7 +5,7 @@
         public User(int id, string firstName, string lastName)
             : this()
         {
-            Id = id; //needed only for seed.
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
         }

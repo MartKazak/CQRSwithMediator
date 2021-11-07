@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using DemoApp.DataAccess.Abstractions;
-using DemoApp.DataAccess.Contracts.Users;
 using DemoApp.DataAccess.InMemory.InMemoryData;
 using DemoApp.DataAccess.InMemory.Users.Extensions;
-using DemoApp.DataAccess.Users.Queries;
+using DemoApp.Types.Abstractions;
+using DemoApp.Types.Contracts.Users;
+using DemoApp.Types.Users.Queries;
 
 namespace DemoApp.DataAccess.InMemory.Users.Handlers.Queries
 {

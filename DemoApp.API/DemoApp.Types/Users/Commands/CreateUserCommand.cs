@@ -1,7 +1,7 @@
-﻿using DemoApp.DataAccess.Abstractions;
-using DemoApp.DataAccess.Contracts.Users;
+﻿using DemoApp.Types.Abstractions;
+using DemoApp.Types.Contracts.Users;
 
-namespace DemoApp.DataAccess.Users.Commands
+namespace DemoApp.Types.Users.Commands
 {
     //public sealed record CreateUserCommand(string FirstName, string LastName) : ICommand<UserDTO>;
 

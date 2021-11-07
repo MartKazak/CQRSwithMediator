@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using DemoApp.DataAccess.Abstractions;
-using DemoApp.DataAccess.Users.Commands;
 using DemoApp.Domain.Repositories;
+using DemoApp.Types.Abstractions;
+using DemoApp.Types.Users.Commands;
 using MediatR;
 
 namespace DemoApp.DataAccess.EF.Users.Handlers.Commands

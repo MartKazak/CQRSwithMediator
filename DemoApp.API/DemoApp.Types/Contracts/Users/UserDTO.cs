@@ -1,4 +1,4 @@
-﻿namespace DemoApp.DataAccess.Contracts.Users
+﻿namespace DemoApp.Types.Contracts.Users
 {
     //public sealed record UserDTO(int Id, string FirstName, string LastName);
 

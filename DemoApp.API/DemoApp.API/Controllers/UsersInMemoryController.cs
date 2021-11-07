@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using DemoApp.DataAccess.Contracts.Users;
-using DemoApp.DataAccess.Users.Queries;
+using DemoApp.Types.Contracts.Users;
+using DemoApp.Types.Users.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
